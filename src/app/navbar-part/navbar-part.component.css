@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+
+:root{
+   --fontFamily :  'Nunito Sans', sans-serif;
+}
+
+*{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background: black;
+}
+
+.navbar .navbar-brand{
+    margin-left:245px;
+}
+
+.navbar .navbar-brand img{
+    width:2rem;
+}
+.navbar .collapse ul{
+    margin-left:50px;
+}
+
+.navbar .collapse ul li{
+    margin: 0 25px;
+}
+
+.navbar .collapse ul li a{
+    color:rgba(255,255,255,0.6);
+   text-transform: uppercase ;
+   font-family: var(--fontFamily);
+}
+
+.navbar .collapse ul li a:hover{
+    color:rgba(255,255,255,1);
+}
+
+/* start grey nav */
+
+.section-1 .row .col-md-12 {
+    display: inline;
+}
+
+.section-1 .row .col-md-12 ul a{
+    margin: 10px 10px;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+
+.section-1 .row .col-md-12 ul a:hover{
+    color:skyblue;
+}
+
+.section-1 .row .col-md-12 a img{
+    width:3rem;
+}
+
+
+/* end grey nav  */
