@@ -44,8 +44,12 @@
     display: inline;
 }
 
+.section-1 .row{
+    margin-left: 150px;
+}
+
 .section-1 .row .col-md-12 ul a{
-    margin: 10px 10px;
+    margin: 10px 18px;
     text-align: center;
     display:inline-block;
     text-decoration: none;

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+:root{
+    --new-Color:#c04917;
+    --h1-Family:'Mukta', sans-serif;
+    --button-color:#2377ed;
+}
