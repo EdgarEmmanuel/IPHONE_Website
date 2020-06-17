@@ -218,6 +218,10 @@
      overflow-x: hidden;
  }
 
+ .section-5 .row{
+     margin-left: 90px;
+ }
+
  .section-5 .row .col-md-12 .head{
      text-align: center;
  }
@@ -243,8 +247,33 @@
      width:70%;
      margin: auto;
      text-align: center;
+     overflow-y: hidden;
+     font-family: var(--h1-Family);
 }
 
+.section-5 .row .col-md-12 .col-img .textVente h1{
+    font-size: 22px;
+}
+
+.section-5 .row .col-md-12 .col-img .textVente h1 span{
+    font-weight:bold;
+}
+
+.section-5 .row .col-md-12 .col-img .textVente button{
+    border:1px solid var(--button-color);
+    background:var(--button-color);
+    padding: 2px 2px;
+    font-weight:bold;
+    font-family: var(--h1-Family);
+    border-radius:10px;
+    color:white;
+    width:100px;
+}
+
+
+.section-5 .row .col-md-12 .col-img .textVente a{
+    margin-top: 10px;
+}
 
 
  /* end section-5 */
