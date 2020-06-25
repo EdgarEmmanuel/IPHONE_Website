@@ -381,7 +381,7 @@
 
  .section-8 .row .col-md-6 .textAppleWatch{
      margin-top: 5rem;
-     margin-left: 40px;
+     margin-left: 100px;
  }
 
  .section-8 .row .col-md-6 .textAppleWatch p:first-child{
@@ -389,6 +389,86 @@
  }
 
  .section-8 .row .col-md-6 .textAppleWatch p ~ p{
-     font-size: 16px;
+     font-size:22px;
+     font-weight:bold;
  }
  /* ======================end section-8==================== */
+
+
+ /* ================section-9======================= */
+ .section-9{
+     background:#F2F2F2;
+     
+ }
+
+ .section-9 .row{
+     margin: auto;
+     padding: 40px 0;
+ }
+
+ .section-9 .row .col-md-12 h1{
+     font-size:50px;
+     text-align: center;
+     margin-top: 100px;
+     font-weight:bold;
+ }
+
+ .section-9 .row .col-md-12 .textSection9{
+    display: flex;
+    align-items:center;
+ }
+
+ .section-9 .row .col-md-12 .textSection9 .colText{
+     flex-basis: 50%;
+     text-align: center;
+ }
+
+ .section-9 .row .col-md-12 .textSection9 .colText h1{
+     border:2px solid black;
+     width:50px;
+     border-radius:27px;
+     margin-left: 250px;
+ }
+
+ .section-9 .row .col-md-12 .textSection9 .colText h2{
+     font-weight:bold;
+     font-size:20px;
+ }
+
+ .section-9 .row .col-md-12 .textSection9 .colText h3{
+     font-size: 17px;
+ }
+
+ .section-9 .row .col-md-6{
+     margin-top:100px;
+     text-align: center;
+ }
+
+
+ .section-9 .row .col-md-6 img{
+    width:35rem;
+    z-index:1;
+    border-radius:10px;
+ }
+
+ .section-9 .row .col-md-6 .tcol{
+     top:-23.5rem;
+     bottom: auto;
+     position:relative;
+     z-index:4;
+     color:white;
+     background:rgba(241, 237, 237, 0.01);
+ }
+
+ .section-9 .row .col-md-6 .tcol h1{
+     font-weight:bold;
+ }
+
+ .section-9 .row .col-md-6 .tcol p{
+     margin-top: -10px;
+ }
+
+ .section-9 .row .col-md-6 .tcol a{
+    font-weight:bold;
+ }
+ /* ==============end section-9======================= */
