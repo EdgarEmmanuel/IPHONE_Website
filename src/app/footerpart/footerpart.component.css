@@ -1,0 +1,24 @@
+.section-12{
+    margin-top:100px;
+}
+
+.section-12 .row{
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.section-12 .row .loc-lumn{
+    flex-basis:20%;
+}
+
+
+.section-12 .row .loc-lumn h1{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.section-12 .row .loc-lumn p{
+    font-size:11px;
+}

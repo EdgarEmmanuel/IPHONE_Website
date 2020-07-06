@@ -517,3 +517,39 @@
     font-size:23px;
     margin:0 10px;
 }
+
+
+/* start  of the section 11 div */
+
+
+.section-11{
+    margin-top:100px;
+    background:#FAFAFA;
+    margin-bottom:50px;
+}
+
+.section-11 .row .col-md-6 .textSec11{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.section-11 .row .col-md-6 .textSec11 h1{
+    font-family: var(--h1-Family);
+    font-weight: bold;
+}
+
+.section-11 .row .col-md-6 .textSec11 p{
+    font-family: var(--h1-Family);
+}
+
+.section-11 .row .col-md-6 .textSec11 a{
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.section-11 .row .col-md-6 img{
+    width:40rem;
+}
+
+
+/* en of the section 11 div  */
