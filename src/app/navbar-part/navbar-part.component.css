@@ -98,14 +98,19 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .navbar{
-    background: pink;
+    background: black;
+  }
+  .navbar .collapse ul li a{
+    color:rgba(255,255,255,0.6);
+    text-transform: uppercase ;
+    font-family: var(--fontFamily);
   }
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .navbar{
-    background: green;
-  }
+  /*.navbar{*/
+  /*  background: green;*/
+  /*}*/
 }
