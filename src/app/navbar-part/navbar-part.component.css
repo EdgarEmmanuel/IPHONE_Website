@@ -5,17 +5,14 @@
    --fontFamily :  'Nunito Sans', sans-serif;
 }
 
-*{
-    overflow-x: hidden;
-}
-
 .navbar{
-    background: black;
+  background: black;
+  width: auto;
 }
 
-.navbar .navbar-brand{
-    margin-left:245px;
-}
+/*.navbar .navbar-brand{*/
+/*    margin-left:245px;*/
+/*}*/
 
 .navbar .navbar-brand img{
     width:2rem;
@@ -67,3 +64,48 @@
 
 
 /* end grey nav  */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar{
+    background: white;
+  }
+  .navbar .navbar-brand{
+    background: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  .navbar .collapse ul li a {
+    color: rgba(0,0,0,1);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar{
+    background: white;
+  }
+  .navbar .navbar-brand{
+    margin-left:145px;
+    background: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar{
+    background: pink;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbar{
+    background: green;
+  }
+}
