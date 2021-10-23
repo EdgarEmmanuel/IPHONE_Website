@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+/* start section 3 */
+
+
+.section-3{
+  margin-top:150px;
+}
+
+.section-3 .__row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.section-3 .__row .right,
+.section-3 .__row .left
+{
+  flex-basis: 50%;
+}
+.section-3 .__row .left{
+  padding: 20px 20px;
+}
+.section-3 .__row .right img{
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+.section-3 .__row .left .text{
+  margin-left: 170px;
+  margin-top:80px;
+}
+
+
+.section-3 .__row .left .text .secH3{
+  font-weight:bold;
+  margin-top: 4px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-3 .__row .left .text p{
+  font-size: 62px;
+  font-weight: bold;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-3 .__row .left .text h5{
+  font-size:40px;
+  font-weight:bold;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-3 .__row .left .text .firstH3{
+  font-size: 18px;
+  color:#c04917;
+}
+
+.section-3 .__row .left .text h5{
+  margin-top: 5px;
+}
+
+.section-3 .__row .left .text button{
+  background: #2377ed;;
+  border: 1px solid #2377ed;;
+  color:white;
+  padding: 3px 3px;
+  border-radius: 27px;
+  width:60px;
+  margin-top: 10px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-3 .__row .left .text a{
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size:20px;
+  font-family: 'Mukta', sans-serif;
+}
+
+/* end section 3 */
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-3 .__row .right,
+  .section-3 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-3 .__row .left .text{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-3 .__row .right,
+  .section-3 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-3 .__row .left .text{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-3 .__row .right,
+  .section-3 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-3 .__row .right,
+  .section-3 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
+

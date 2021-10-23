@@ -7,6 +7,7 @@ import { NavbarPartComponent } from './navbar-part/navbar-part.component';
 import { MainpartComponent } from './mainpart/mainpart.component';
 import { FooterpartComponent } from './footerpart/footerpart.component';
 import {IphoneSeComponent} from './parts/iphone-se/iphone-se.component';
+import {IphoneElevenComponent} from "./parts/iphone-eleven/iphone-eleven.component";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {IphoneSeComponent} from './parts/iphone-se/iphone-se.component';
     NavbarPartComponent,
     MainpartComponent,
     FooterpartComponent,
-    IphoneSeComponent
+    IphoneSeComponent,
+    IphoneElevenComponent,
   ],
   imports: [
     BrowserModule,
