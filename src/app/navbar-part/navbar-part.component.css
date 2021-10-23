@@ -42,7 +42,8 @@
 }
 
 .section-1 .row{
-    margin-left: 150px;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .section-1 .row .col-md-12 ul a{
@@ -54,12 +55,25 @@
 }
 
 
-.section-1 .row .col-md-12 ul a:hover{
-    color:skyblue;
+.section-1 .row .col-md-12 a img{
+  width:3rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.section-1 .row .col-md-12 a img{
-    width:3rem;
+
+.section-1 .row .col-md-12 a{
+  padding: 10px;
+  text-align: center;
+}
+
+.section-1 .row .col-md-12 a h6{
+  text-align: center;
+}
+
+
+.section-1 .row .col-md-12 ul a:hover{
+    color:skyblue;
 }
 
 
@@ -92,6 +106,11 @@
     padding: 10px 10px;
     border-radius: 10px;
   }
+  .navbar .collapse ul li a{
+    color:rgba(0,0,0,1);
+    text-transform: uppercase ;
+    font-family: var(--fontFamily);
+  }
 }
 
 
@@ -105,12 +124,23 @@
     text-transform: uppercase ;
     font-family: var(--fontFamily);
   }
+  .section-1 .row{
+    background: white;
+  }
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /*.navbar{*/
-  /*  background: green;*/
-  /*}*/
+  .navbar{
+    background: black;
+  }
+  .navbar .collapse ul li a{
+    color:rgba(255,255,255,0.6);
+    text-transform: uppercase ;
+    font-family: var(--fontFamily);
+  }
+  .section-1 .row{
+    background: white;
+  }
 }
