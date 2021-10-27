@@ -7,8 +7,9 @@ import { NavbarPartComponent } from './navbar-part/navbar-part.component';
 import { MainpartComponent } from './mainpart/mainpart.component';
 import { FooterpartComponent } from './footerpart/footerpart.component';
 import {IphoneSeComponent} from './parts/iphone-se/iphone-se.component';
-import {IphoneElevenComponent} from "./parts/iphone-eleven/iphone-eleven.component";
-import {IphoneElevenProComponent} from "./parts/iphone-eleven-pro/iphone-eleven-pro.component";
+import {IphoneElevenComponent} from './parts/iphone-eleven/iphone-eleven.component';
+import {IphoneElevenProComponent} from './parts/iphone-eleven-pro/iphone-eleven-pro.component';
+import {CreditAppleComponent} from './parts/credit-apple/credit-apple.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {IphoneElevenProComponent} from "./parts/iphone-eleven-pro/iphone-eleven-
     IphoneSeComponent,
     IphoneElevenComponent,
     IphoneElevenProComponent,
+    CreditAppleComponent,
   ],
   imports: [
     BrowserModule,

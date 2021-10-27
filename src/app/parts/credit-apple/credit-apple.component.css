@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+/* ======= start section 6 ============== */
+.section-6{
+  margin-top: 200px;
+  border:20px solid rgb(242,242,242);
+  padding: 40px 40px;
+}
+
+.section-6 .__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.section-6 .__row .left,
+.section-6 .__row .right{
+  flex-basis: 50%;
+}
+
+.section-6 .__row .right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-6 .__row .left .textCardPart{
+  margin-left: 100px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.section-6 .__row .left .textCardPart h1{
+  font-family: 'Mukta', sans-serif;
+  font-weight:bold;
+  font-size: 45px;
+}
+
+.section-6 .__row .left .textCardPart  p{
+  font-family: 'Mukta', sans-serif;
+  font-size:25px;
+}
+
+.section-6 .__row .left .textCardPart a{
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+}
+
+/* =============== end section 6 ============ */
+
+
+
+
+
+/* =====================start section -8  ===================*/
+.section-8{
+  border: 20px solid rgb(242,242,242);
+}
+.section-8 .__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-8 .__row .right,
+.section-8 .__row .left{
+  flex-basis: 50%;
+}
+
+.section-8 .__row .right img{
+  max-width:100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-8 .__row .left .textAppleWatch{
+  margin-top: 5rem;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section-8 .__row .left .textAppleWatch a{
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-8 .__row .left .textAppleWatch p{
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-8 .__row .left .textAppleWatch p:first-child{
+  font-size: 40px;
+}
+
+.section-8 .__row .left .textAppleWatch p ~ p{
+  font-size:22px;
+  font-weight:bold;
+}
+/* ======================end section-8==================== */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-6 .__row .right,
+  .section-6 .__row .left,
+  .section-8 .__row .right,
+  .section-8 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-6 .__row .left .textCardPart,
+  .section-8 .__row .left .textAppleWatch{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-6 .__row .right,
+  .section-6 .__row .left,
+  .section-8 .__row .right,
+  .section-8 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-6 .__row .left .text,
+  .section-8 .__row .left .textAppleWatch{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-6 .__row .right,
+  .section-6 .__row .left,
+  .section-8 .__row .right,
+  .section-8 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-6 .__row .right,
+  .section-6 .__row .left,
+  .section-8 .__row .right,
+  .section-8 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
