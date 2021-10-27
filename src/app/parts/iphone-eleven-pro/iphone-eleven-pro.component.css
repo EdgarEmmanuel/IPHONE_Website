@@ -8,6 +8,8 @@
 
 .section-4 .__row {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 
@@ -16,10 +18,19 @@
   flex-basis: 50%;
 }
 
+.section-4 .__row .right{
+  padding: 10px 10px;
+}
+
+.section-4 .__row .left{
+  padding: 10px 10px;
+}
+
 .section-4 .__row .right img{
   max-width:100%;
   height: auto;
   display: block;
+  border-radius: 10px;
 }
 
 .section-4 .__row .left .text{
@@ -79,3 +90,52 @@
 }
 
 /* end section 4  */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-4 .__row .right,
+  .section-4 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-4 .__row .left .text{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-4 .__row .right,
+  .section-4 .__row .left
+  {
+    flex-basis: 100%;
+  }
+  .section-4 .__row .left .text{
+    margin-left: 0;
+    margin-top:80px;
+    margin-bottom: 25px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-4 .__row .right,
+  .section-4 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-4 .__row .right,
+  .section-4 .__row .left
+  {
+    flex-basis: 50%;
+  }
+}
