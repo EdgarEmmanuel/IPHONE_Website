@@ -10,6 +10,7 @@ import {IphoneSeComponent} from './parts/iphone-se/iphone-se.component';
 import {IphoneElevenComponent} from './parts/iphone-eleven/iphone-eleven.component';
 import {IphoneElevenProComponent} from './parts/iphone-eleven-pro/iphone-eleven-pro.component';
 import {CreditAppleComponent} from './parts/credit-apple/credit-apple.component';
+import {WhyIphoneComponent} from "./parts/why-iphone/why-iphone.component";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {CreditAppleComponent} from './parts/credit-apple/credit-apple.component'
     IphoneElevenComponent,
     IphoneElevenProComponent,
     CreditAppleComponent,
+    WhyIphoneComponent,
   ],
   imports: [
     BrowserModule,

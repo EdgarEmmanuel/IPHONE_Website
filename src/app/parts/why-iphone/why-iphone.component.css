@@ -1,0 +1,133 @@
+
+/* ================section-9======================= */
+.section-9{
+  background:#F2F2F2;
+
+}
+
+.section-9 .row{
+  margin: auto;
+  padding: 40px 0;
+}
+
+.section-9 .row .col-md-12 h1{
+  font-size:50px;
+  text-align: center;
+  margin-top: 100px;
+  font-weight:bold;
+}
+
+.section-9 .row .col-md-12 .textSection9{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.section-9 .row .col-md-12 .textSection9 .colText{
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.section-9 .row .col-md-12 .textSection9 .colText h1{
+  border:2px solid black;
+  width:50px;
+  border-radius:27px;
+  text-align: center;
+  margin-left: 250px;
+}
+
+.section-9 .row .col-md-12 .textSection9 .colText h2{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.section-9 .row .col-md-12 .textSection9 .colText h3{
+  font-size: 17px;
+}
+
+.section-9 .row .__top {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-9 .row .__top .one_example{
+  margin-top:100px;
+  text-align: center;
+  flex-basis: 50%;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+
+.section-9 .row .__top .one_example img{
+  max-width:100%;
+  z-index:1;
+  border-radius:10px;
+}
+
+.section-9 .row .__top .one-example .tcol{
+  top:-23.5rem;
+  bottom: auto;
+  position:relative;
+  z-index:4;
+  color:white;
+  background:rgba(241, 237, 237, 0.01);
+}
+
+.section-9 .row .__top .one-example .tcol h1{
+  font-weight:bold;
+}
+
+.section-9 .row .__top .one-example .tcol p{
+  margin-top: -10px;
+}
+
+.section-9 .row .__top .one-example .tcol a{
+  font-weight:bold;
+  text-decoration: none;
+}
+/* ==============end section-9======================= */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-9 .row .col-md-12 .textSection9 .colText {
+    text-align: center;
+    /*background: red;*/
+  }
+
+  .section-9 .row .col-md-12 .textSection9 .colText h1{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*.section-9 .row .col-md-12 .textSection9 .colText{*/
+  /*  background: green;*/
+  /*}*/
+  .section-9 .row .col-md-12 .textSection9 .colText h1{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*.section-9 .row .col-md-12 .textSection9 .colText{*/
+  /*  background: pink;*/
+  /*}*/
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
