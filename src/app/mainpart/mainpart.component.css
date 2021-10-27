@@ -1,8 +1,4 @@
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
 
  /* start section 10 */
@@ -20,25 +16,25 @@
      margin:auto;
  }
 
- .section-10 .row .col-md-12 img{
-     width:83rem ;
+ .section-10 .__row .__top img{
+     max-width:100%;
      z-index:4;
 }
 
-.section-10 .row .col-md-12 .textSec10{
+.section-10 .__row .__top .textSec10{
     position: relative;
     margin-top: -2rem;
     background:rgba(255,255,255,0.6);
 }
 
 .section-10 .row .col-md-12 .textSec10 h3{
-    font-family: var(--h1-Family);
+    font-family: 'Mukta', sans-serif;
     font-weight: bold;
     font-size:32px;
 }
 
 .section-10 .row .col-md-12 .textSec10 p{
-    font-family: var(--h1-Family);
+    font-family: 'Mukta', sans-serif;
     font-weight: bold;
 }
 
@@ -59,28 +55,71 @@
     margin-bottom:50px;
 }
 
-.section-11 .row .col-md-6 .textSec11{
+ .section-11 .__row {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .section-11 .__row .left,
+ .section-11 .__row .right{
+   flex-basis: 50%;
+ }
+
+.section-11 .__row .left .textSec11{
     text-align: center;
     margin-top: 110px;
 }
 
-.section-11 .row .col-md-6 .textSec11 h1{
-    font-family: var(--h1-Family);
+.section-11 .__row .left .textSec11 h1{
+    font-family: 'Mukta', sans-serif;
     font-weight: bold;
 }
 
-.section-11 .row .col-md-6 .textSec11 p{
-    font-family: var(--h1-Family);
+.section-11 .__row .left .textSec11 p{
+    font-family: 'Mukta', sans-serif;
 }
 
-.section-11 .row .col-md-6 .textSec11 a{
+.section-11 .__row .left .textSec11 a{
     text-decoration: none;
     font-weight:bold;
 }
 
-.section-11 .row .col-md-6 img{
-    width:40rem;
+.section-11 .__row .right img{
+    max-width:100%;
+  height: auto;
+  display: block;
 }
+
+
+/* ================ end section -11 ================= */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section-11 .__row .left,
+  .section-11 .__row .right{
+    flex-basis: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
 
 
 /* en of the section 11 div  */
